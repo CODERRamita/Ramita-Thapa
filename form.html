@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+</head>
+<body>
+   <h1>personal Details</h1> 
+   <form style ="margin-top:  20px" method="post" action="https://api.merowebsite.com/user_info">
+    <label > Full Name: </label>
+    <input type="text" name="First Name"  value="Ramita Thapa" placeholder=" Enter your Name here...??"/><br />
+    <label> Age: </label>
+    <input type="number" name="age" value="21" placeholder=" enter your age here?.."><br />
+    <label> Email: </label>
+    <input type=" email" name="email" placeholder="Enter your email..."/><br />
+    <label> phone number:</label>
+    <input type="tel" name="phone number"/><br />
+    <label> Date of Birth:</label>
+    <input type = "datetime-local" name="date"/>
+
+    <br/> <label>  Gender:</label>
+    <br />  
+    <label for="male"> male</label>
+    <input type="radio" name="gender" id="male" />
+    <label for="female"> female</label>
+    <input type="radio"  name="gender" id="female"/>
+    <label for="others"> others</label>
+    <input type="radio" name="gender" id="others"/>
+
+    <br/>
+    <label> HOBBIES:</label>
+    <br/>
+    <label for="Reading"> Reading</label>
+    <input type="checkbox" name="hobbies" id="Reading"/>
+    <label for="Playing game"> Playing game</label>
+    <input type="checkbox" name="hobbies" id="Playing game"/><br/>
+    <input type="submit" value="Submit" style="color: red;" />
+
+
+</body>
+</html>
